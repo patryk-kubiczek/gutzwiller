@@ -4,7 +4,7 @@ Copyright (C) 2016 P. Kubiczek
 
 ### Installation
 
-cd python
+cd python \
 ./compile.sh
 
 ### Usage
