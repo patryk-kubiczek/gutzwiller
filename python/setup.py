@@ -2,10 +2,11 @@ from distutils.core import setup, Extension
 from Cython.Build import cythonize
 import os
 
-project_name = "gutzwiller"
+#project_name = "gutzwiller"
 omp = False
 
-cpp_dir = os.path.join(os.path.expanduser("~"), "Dropbox", "Projects", "C++", project_name)
+cpp_dir = os.sep.join(os.getcwd().split(os.sep)[:-1])
+
 def cpp_path(cpp_file):
     return os.path.join(cpp_dir, cpp_file)
 
